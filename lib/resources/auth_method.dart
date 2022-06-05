@@ -1,8 +1,8 @@
 import 'dart:typed_data';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:instagram_clone/resources/storage_method.dart';
-import 'package:instagram_clone/models/user.dart' as model;
+import 'package:instagram/resources/storage_method.dart';
+import 'package:instagram/models/user.dart' as model;
 
 class AuthMethods {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;

@@ -1,13 +1,12 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:instagram_clone/resources/auth_method.dart';
-import 'package:instagram_clone/resources/firestore_methods.dart';
-import 'package:instagram_clone/widgets/edit_profile.dart';
-import 'package:instagram_clone/utils/utils.dart';
-import 'package:instagram_clone/widgets/follow_button.dart';
-
+import '../resources/auth_method.dart';
+import '../resources/firestore_methods.dart';
 import '../utils/colors.dart';
+import '../utils/utils.dart';
+import '../widgets/edit_profile.dart';
+import '../widgets/follow_button.dart';
 import 'login_screen.dart';
 
 class ProfileScreen extends StatefulWidget {

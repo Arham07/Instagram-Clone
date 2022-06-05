@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:instagram_clone/utils/globle_variables.dart';
 import '../utils/colors.dart';
+import '../utils/globle_variables.dart';
 
 class MobScreenLayout extends StatefulWidget {
   const MobScreenLayout({Key? key}) : super(key: key);

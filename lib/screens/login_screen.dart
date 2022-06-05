@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:instagram/screens/signup_sceen.dart';
+import '../resources/auth_method.dart';
 import '../responsive_layout/mobile_screen_layout.dart';
 import '../responsive_layout/responsive_layout_screen.dart';
 import '../responsive_layout/web_screen_layout.dart';
+import '../utils/colors.dart';
+import '../utils/utils.dart';
+import '../widgets/text_field_input.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);

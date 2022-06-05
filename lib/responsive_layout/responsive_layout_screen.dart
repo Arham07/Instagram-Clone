@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_clone/providers/user_provider.dart';
-import 'package:instagram_clone/utils/globle_variables.dart';
+
 import 'package:provider/provider.dart';
+
+import '../providers/user_provider.dart';
+import '../utils/globle_variables.dart';
 
 class ResponsiveLayout extends StatefulWidget {
   const ResponsiveLayout({Key? key, required this.webScreenLayout, required this.mobScreenLayout}) : super(key: key);
